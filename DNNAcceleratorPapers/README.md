@@ -29,9 +29,9 @@
 - All-Digital Time-Domain CNN Engine Using Bidirectional Memory Delay Lines for Energy-Efficient Edge Computing. (UT Austin)
 
 ### 2019 HPCA
-- **HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array.** (Duke, USC)[[Download PDF]](https://arxiv.org/abs/1901.02067)
+- ：sparkles：**HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array.** (Duke, USC)[[Download PDF]](https://arxiv.org/abs/1901.02067)sparkles：
 - **E-RNN: Design Optimization for Efficient Recurrent Neural Networks in FPGAs.** (Syracuse University, Northeastern University, Florida International University, USC, University at Buffalo)[[Download PDF]](https://arxiv.org/abs/1812.07106)
-- **Shortcut Mining: Exploiting Cross-layer Shortcut Reuse in DCNN Accelerators.** (OSU)[[Download PDF]](http://web.engr.oregonstate.edu/~chenliz/publications/2019_HPCA_Shortcut%20Mining.pdf)
+- sparkles：**Shortcut Mining: Exploiting Cross-layer Shortcut Reuse in DCNN Accelerators.** (OSU)[[Download PDF]](http://web.engr.oregonstate.edu/~chenliz/publications/2019_HPCA_Shortcut%20Mining.pdf)
 
 
 ### 2018 ASPDAC
