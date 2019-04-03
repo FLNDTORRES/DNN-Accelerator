@@ -97,4 +97,6 @@ number of links is halved)
 
 - **Comparison of HYPAR and the Trick**
 
+  [One weird trick](https://arxiv.org/abs/1404.5997): convolutional layers are configured with data parallelism and fully connected layers are configured with model parallelism.
+
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-with%20trick.PNG)
