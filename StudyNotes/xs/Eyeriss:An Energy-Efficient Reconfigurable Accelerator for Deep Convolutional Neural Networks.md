@@ -103,6 +103,7 @@
 - 25 banks: each of which is a 512-b ×64-b (4 kB) SRAM. Each bank is assigned entirely to ifmaps or psums.
 ## Network-on-Chip
 data delivery between the GLB and the PE array as well as between different PEs.
+
     - different convolution strides (U) [CONV1]
     - a set is divided into segments [CONV2]
     - multiple sets are mapped onto the array simultaneously[CONV4][CONV5]
