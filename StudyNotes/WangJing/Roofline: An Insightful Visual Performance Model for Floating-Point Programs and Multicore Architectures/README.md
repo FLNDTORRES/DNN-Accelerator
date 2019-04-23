@@ -5,7 +5,8 @@ Off-chip memory bandwidth will often be the constraining resource, need a model 
 ## The Roofline Model
 * Operational intensity: operations per byte of DRAM traffic         
 X-axis (GFlops/byte)
-* Floating-point performance: formula1 ![1](1.PNG)    
+* Floating-point performance: formula1      
+![1](1.PNG)    
 Y-axis (GFlops/second)
 * memory performance: (byte/second)     
 
