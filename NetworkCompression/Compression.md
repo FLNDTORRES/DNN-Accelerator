@@ -1,4 +1,4 @@
-# **Papers on NN Compression**
+# **Papers about NN Compression**
 ## **Paper list**
 ### **CVPR 2018**
 * [**CLIP-Q: Deep Network Compression Learning by In-Parallel Pruning-Quantization**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Tung_CLIP-Q_Deep_Network_CVPR_2018_paper.pdf)</br>
