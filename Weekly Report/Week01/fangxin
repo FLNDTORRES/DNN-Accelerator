@@ -1,0 +1,14 @@
+本周主要看了两篇文献，分别是：
+Google在2018CVPR上发表的量化算法《Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference》
+Han Song在2016ICLR的best paper《Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding》
+
+Goole这篇文章开篇部分指出目前用来做baseline的DNN架构（如AlexNet, VGGNet, GoogleNet, ResNet等），这些模型都是竞赛模型，
+为了能够在ImageNet上取得最优性能和尽可能大的提升准确度获得极限准确率，在设计的时候参数都是严重冗余的，所以针对这些网络结构进行压缩/量化，就很容易
+获得很多倍甚至是超多倍数的压缩结果。并以此呼吁大家针对如MobileNet这类已经比较优化了的网络结构进行压缩试验和对比。
+这篇文章主要是在移动设备的硬件上对MobileNet进行量化加速，核心方案是通过把weights和activations量化到8-bit，然后bias以32-bit参与到计算当中，
+主要包括两个部分：quantized inference和training with simulated quantization.
+quantized inference，在整个inference过程中只进行整数的运算。
+training with simulated quantization，在整个training过程中把fake quantization插入到里面，fake quantization 就是先进行量化，然后再把量化还原的一个过程。
+
+接下来主要是对相关代码的查找和复现，由于离职需要交还电脑，所以代码复现的事得稍微延后一点。
+PS：这周因为“护网”行动，单位安排了我值班保障，所以没办法工作时间请假......
