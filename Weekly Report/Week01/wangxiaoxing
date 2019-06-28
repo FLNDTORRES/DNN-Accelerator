@@ -1,0 +1,10 @@
+本周主要在cifar10上对squeezenet进行训练和基于admm裁枝
+解决了squeezenet在cifar10上不收敛的问题
+解决了admm裁枝不支持concat结构的问题
+当前实验进为初步验证，没有对每层的压缩率进行设定。cifar10实验下，压缩1倍，精度从82%掉至60%，不如直接训练通道数少的squeezenet
+
+接下来主要是对facenet在pytorch上的复现
+因为裁枝也需要边训练边测试，所以可以直接在pytorch上进行训练，得到squeezenet
+1. 保证 基于一般的res18，inception结构的facenet的精度
+2. 训练 基于squeezenet的facenet
+3. 对训练得到的squeezenet进行裁枝压缩
